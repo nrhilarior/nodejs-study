@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { pool } from './connection';
+import { pool } from '../../configs/database/connection';
 
 // PUT com path parametros, body e passando pelo Banco de Dados
 export const updateUser = async (req: Request, res: Response) => {

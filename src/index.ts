@@ -1,10 +1,10 @@
 import express from 'express';
-import { getUserById, getUsers } from './users/user.get.controller';
-import { createUser } from './users/user.create.controller';
-import { updateUser } from './users/user.uptade.controller';
-import { deleteUser } from './users/user.delete.controller';
+import { getUserById, getUsers } from './users/services/get.service';
+import { updateUser } from './users/services/uptade.service';
+import { deleteUser } from './users/services/delete.service';
+import { createUser } from './users/services/create.service';
 
-const app = express();
+export const app = express();
 app.use(express.json());
 
 app.get('/users', getUsers);

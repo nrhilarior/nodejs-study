@@ -183,3 +183,7 @@ Código: 204
 Código: 404 User Not Found
 
 Código: 500 Internal Server Error
+
+## Collections 
+
+Este arquivo servre para testar o CRUD pela ferramenta Postman [Teste do CRUD via Postman](../../Desktop/test-crud.json)

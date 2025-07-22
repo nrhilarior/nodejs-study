@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { User } from './user.model';
-import { pool } from './connection';
+import { User } from '../../configs/database/user.model';
+import { pool } from '../../configs/database/connection';
 
 // POST passando pelo Banco de Dados
 export const createUser = async (req: Request, res: Response) => {

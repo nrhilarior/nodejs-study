@@ -6,7 +6,3 @@ export interface User {
   lastName: string;
   birthdate: string;
 }
-
-// base de dados
-// base de dados em memória
-export const users: User[] = [];

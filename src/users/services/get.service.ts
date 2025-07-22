@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { pool } from './connection';
+import { pool } from '../../configs/database/connection';
 
 // GET com páginação e passando pelo Banco de Dados
 export const getUsers = async (req: Request, res: Response) => {
